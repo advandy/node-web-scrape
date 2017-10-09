@@ -1,0 +1,18 @@
+{
+  "name": "node-web-scrape",
+  "version": "0.0.1",
+  "description": "Scrape investopedia corporate finance.",
+  "main": "main.js",
+  "author": "Yunhan",
+  "dependencies": {
+    "cheerio": "latest",
+    "phantom": "^4.0.5",
+    "request": "latest"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "scripts": {
+    "start": "nodemon app.js"
+  }
+}
